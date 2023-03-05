@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f8fe;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 850px) {
+  header {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 2rem;
+  }
+}
+
+.header_btn {
+  background-color: #2b71f4;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+ul {
+  list-style: decimal;
+}
+
+.quote-item-author {
+  color: grey;
+}
